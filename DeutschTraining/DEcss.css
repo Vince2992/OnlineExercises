@@ -1,0 +1,76 @@
+body {
+  font-family: 'Noto Sans SC', sans-serif;
+  background-image: linear-gradient(to left, white, #03dffc);
+}
+
+#one {
+  background-color: lawngreen;
+  padding-top: 7%;
+}
+
+#two {
+  padding-top: 4%;
+}
+
+#three {
+  padding-top: 4%;
+}
+
+li, p {
+  font-weight: bold;
+}
+
+.green {
+  background-color: green;
+  font-size: 1.5em;
+  transition: font-size 0.5s;
+}
+
+.green:hover {
+  color: white;
+  font-size: 1.7em;
+}
+
+.aqua {
+  background-color: #1f6e6a;
+  font-size: 2em;
+  transition: font-size 1s;
+}
+
+.aqua:hover {
+  color: white;
+  font-size: 2.2em;
+}
+
+.red {
+  background-color: red;
+  font-size: 1.3em;
+  transition: font-size 1.2s;
+}
+
+.red:hover {
+  color: white;
+  font-size: 1.5em;
+}
+
+.capCol {
+  background-color: lawngreen;
+  color: black;
+  padding: 2%;
+  border-radius: 5% 10%;
+  font-weight: bold;
+}
+
+.prät {
+  color: yellow;
+  font-weight: bold;
+}
+
+.imptiv {
+  color: #20fc03;
+  font-weight: bold;
+}
+
+#checkIns {
+  margin-left: 10%;
+}

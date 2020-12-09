@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Online Übungen></title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="uebungenCss.css">
+</head>
+
+<body>
+  <div id="ex1">
+    <h1>Online Übungen: </h1>
+    <h3>Viel Erfolg! ;)</h3>
+    <br /><br />
+
+    <h4>1. Ergänzen Sie die korrekte Präsensform des Verbs und überprüfen Sie Ihre Antwort mit der "Check"-Taste:</h4>
+    <br />
+    <p>
+      Ihr (schlafen) <input type="text" id="schlaft" /> bei offenem Fenster?! Bei dieser Kälte?! <button onclick="schlaft()">Check</button>
+    </p><br />
+    <p>
+      Wir müssen uns unbedingt ein paar Kekse (besorgen) <input type="text" id="besorgen" /><button onclick="besorgen()">Check</button>. Ich (haben) <input type="text" id="habe" /> schrecklichen Kohldampf!<button onclick="habe()">Check</button>
+    </p><br />
+    <p>
+      Wir (befinden) <input type="text" id="befinden" /> uns gerade in einen komischen Raum!<button onclick="befinden()">Check</button>
+    </p><br />
+    <p>
+      Sie (versuchen) immer ihr Bestes zu geben <input type="text" id="versucht" />!<button onclick="versucht()">Check</button>
+    </p>
+  </div>
+
+    <br /><br />
+
+<div id="ex2">
+  <h4>2. Wählen Sie die korrekte Form und überprüfen Sie Ihre Antwort mit der "Check"-Taste:</h4>
+  <br />
+  <ol>
+    <li>Das bedeutet wahrscheinlich, dass er erst morgen,
+      <select name="qTags" id="auftaucht">
+        <option value="choose">Bitte wählen..</option>
+        <option value="right">auftaucht</option>
+        <option value="wrong">untertaucht</option>
+      </select> ?<button onclick="auftaucht()">Check</button>
+    </li><br />
+    <li>Im Brief waren von zwei Millionen Dollar die <select name="qTags" id="rede">
+        <option value="choose">Bitte wählen..</option>
+        <option value="wrong">Sprache</option>
+        <option value="right">Rede</option>
+      </select> ?<button onclick="rede()">Check</button></li><br />
+    <li>Ich glaub' ich <select name="qTags" id="spinne">
+        <option value="choose">Bitte wählen..</option>
+        <option value="right">spinne</option>
+        <option value="wrong">heuschrecke</option>
+      </select> !!<button onclick="spinne()">Check</button></li><br />
+    <li>Sie schläft wie in Abrahams <select name="qTags" id="schoß">
+        <option value="choose">Bitte wählen..</option>
+        <option value="wrong">Schulter</option>
+        <option value="right">Schoß</option>
+      </select> ?<button onclick="schoß()">Check</button></li><br />
+    <li>Wenn mich mein Gedächtnis nicht <select name="qTags" id="täuscht">
+        <option value="choose">Bitte wählen..</option>
+        <option value="right">täuscht</option>
+        <option value="wrong">teucht</option>
+      </select> ?<button onclick="täuscht()">Check</button></li>
+  </ol>
+</div>
+
+  <br /><br />
+
+<div>
+  <h4>3. Schreiben Sie den korrekten Buchstaben in die entsprechende Checkbox und überprüfen Sie Ihre Antwort mit der "Check"-Taste:</h4>
+  <br />
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <h2>...</h2>
+        <br />
+        <ol>
+          <li>
+            Wo befinden Sie sich ___ ? <input type="text" maxlength="1" style="width: 1.7em;" id="b"><button onclick="b()">Check</button>
+          </li><br />
+          <li>
+            Die alte Frau lächelte mir  _____ entgegen. <input type="text" maxlength="1" style="width: 1.7em;" id="a"><button onclick="a()">Check</button>
+          </li><br />
+          <li>
+            Alle ____ ! <input type="text" maxlength="1" style="width: 1.7em;" id="e"><button onclick="e()">Check</button>
+          </li><br />
+          <li>
+            Der von uns _____ Meisterdieb befindet sich auf dem Dach des Hotels. <input type="text" maxlength="1" style="width: 1.7em;" id="d"><button onclick="d()">Check</button>
+          </li><br />
+          <li>
+            Wie vom ____ verschluckt! <input type="text" maxlength="1" style="width: 1.7em;" id="c"><button onclick="c()">Check</button>
+          </li>
+        </ol>
+      </div>
+      <div id="antwort" class="col">
+        <h2>Antwort</h2>
+        <br />
+        <ol type="a">
+          <li>
+            selbstsicher
+          </li><br />
+          <li>
+            genau
+          </li><br />
+          <li>
+            Erdboden
+          </li><br />
+          <li>
+            gesuchte
+          </li><br />
+          <li>
+            Achtung
+          </li>
+        </ol>
+      </div>
+    </div>
+</div>
+
+    <br /><br />
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="uebungenJs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(to left, #ede264, #ffee38);
+    margin-top: 5%;
+    margin-left: 2%;
+    font-weight: bold;
+  }
+
+  h1, h3 {
+    text-align: center;
+  }
+
+  h2 {
+    color: #eb7c15;
+  }
+
+  button {
+    margin-left: 1%;
+  }
+
+  h4 {
+    color: red;
+  }
